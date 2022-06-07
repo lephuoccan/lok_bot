@@ -571,8 +571,13 @@ class LokFarmer:
 
                 try:
                     if code in set(OBJECT_MINE_CODE_LIST).intersection(set(object_code_list)):
-                        self._on_field_objects_gather(each_obj)
-
+                        _level = each_obj.get('level')
+                        _param = (each_obj.get('param'))
+                        _value = _param["value"]
+                        print("Found Crystal Mine level  %d, Value = %d" %(_level,_value))
+                        if _value > 49:
+                            print("Gather CM ")
+                            self._on_field_objects_gather(each_obj)
                     if code in set(OBJECT_MONSTER_CODE_LIST).intersection(set(object_code_list)):
                         self._on_field_objects_monster(each_obj)
                 except OtherException as error_code:

@@ -80,7 +80,7 @@
           "object_code_list": [
             20100105
           ],
-          "radius": 6
+          "radius": 5
         },
         "interval": {
           "start": 1,
@@ -121,6 +121,6 @@
     ]
   },
   "socketio": {
-    "debug": false
+    "debug": true
   }
 }
