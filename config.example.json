@@ -11,7 +11,7 @@
       },
       {
         "name": "wall_repair",
-        "enabled": true,
+        "enabled": false,
         "interval": {
           "start": 30,
           "end": 90
@@ -25,12 +25,12 @@
           "help_all": true,
           "research_donate": true,
           "shop_auto_buy_item_code_list": [
-            10101008
+            
           ]
         },
         "interval": {
-          "start": 120,
-          "end": 200
+          "start": 10,
+          "end": 20
         }
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "name": "caravan_farmer",
-        "enabled": true,
+        "enabled": false,
         "interval": {
           "start": 120,
           "end": 200
@@ -51,7 +51,7 @@
       },
       {
         "name": "use_resource_in_item_list",
-        "enabled": true,
+        "enabled": false,
         "interval": {
           "start": 120,
           "end": 200
@@ -61,8 +61,8 @@
         "name": "vip_chest_claim",
         "enabled": true,
         "interval": {
-          "start": 120,
-          "end": 200
+          "start": 60,
+          "end": 120
         }
       },
       {
@@ -78,10 +78,9 @@
         "enabled": true,
         "kwargs": {
           "object_code_list": [
-            20100105,
-            20200104
+            20100105
           ],
-          "radius": 8
+          "radius": 6
         },
         "interval": {
           "start": 1,
@@ -100,21 +99,21 @@
       },
       {
         "name": "building_farmer_thread",
-        "enabled": true,
+        "enabled": false,
         "kwargs": {
           "task_code": 1
         }
       },
       {
         "name": "building_farmer_thread",
-        "enabled": true,
+        "enabled": false,
         "kwargs": {
           "task_code": 8
         }
       },
       {
         "name": "academy_farmer_thread",
-        "enabled": true,
+        "enabled": false,
         "kwargs": {
           "to_max_level": false
         }

@@ -61,14 +61,14 @@ class LokFarmer:
         self.kingdom_enter = None
         self.access_token = access_token
         self.api = LokBotApi(access_token, captcha_solver_config, self._request_callback)
-
+        
         device_info = {
-            "OS": "iOS 15.5",
-            "country": "USA",
-            "language": "English",
-            "version": "1.1454.106.179",
-            "platform": "ios",
-            "build": "global"
+            "OS":"Windows 10",
+            "country":"USA",
+            "language":"English",
+            "version":"1.1454.106.188",
+            "platform":"web",
+            "build":"global"
         }
 
         self.kingdom_enter = self.api.kingdom_enter()

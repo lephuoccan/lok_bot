@@ -2,12 +2,12 @@
 
 ```json
 {
-  "OS": "iOS 15.3.1",
-  "country": "USA",
-  "language": "ChineseSimplified",
-  "version": "1.1407.97.168",
-  "platform": "ios",
-  "build": "global"
+  "OS":"Windows 10",
+  "country":"USA",
+  "language":"English",
+  "version":"1.1454.106.188",
+  "platform":"web",
+  "build":"global"
 }
 ```
 
