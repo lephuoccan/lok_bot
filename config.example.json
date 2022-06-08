@@ -3,7 +3,7 @@
     "jobs": [
       {
         "name": "hospital_recover",
-        "enabled": true,
+        "enabled": false,
         "interval": {
           "start": 90,
           "end": 180
@@ -23,7 +23,7 @@
         "kwargs": {
           "gift_claim": true,
           "help_all": true,
-          "research_donate": true,
+          "research_donate": false,
           "shop_auto_buy_item_code_list": [
             
           ]
@@ -59,7 +59,7 @@
       },
       {
         "name": "vip_chest_claim",
-        "enabled": true,
+        "enabled": false,
         "interval": {
           "start": 60,
           "end": 120
@@ -91,11 +91,11 @@
     "threads": [
       {
         "name": "free_chest_farmer_thread",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "quest_monitor_thread",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "building_farmer_thread",

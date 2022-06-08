@@ -87,7 +87,7 @@ def main(token, captcha_solver_config=None):
 
     schedule.run_all()
 
-    schedule.every(5).to(10).minutes.do(farmer.keepalive_request)
+    schedule.every(1).to(4).minutes.do(farmer.keepalive_request)
 
     for thread in config.get('main').get('threads'):
         if not thread.get('enabled'):
