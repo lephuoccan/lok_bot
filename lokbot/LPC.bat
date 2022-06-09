@@ -1,0 +1,3 @@
+pipenv sync
+pipenv shell
+
